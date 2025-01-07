@@ -41,9 +41,7 @@ if uploaded_file:
             try:
                 if len(chunks) != len(embeddings):
                     raise ValueError("Mismatch between the number of chunks and embeddings. Ensure that each chunk has a corresponding embedding.")
-                text_embeddings = list(zip(chunks, embeddings))
-                texts, vectors = zip(*text_embeddings)
-                vectorstore = FAISS.from_texts(chunks, embedding_model)  # Ensure vectorstore is initialized
+                vectorstore = FAISS.from_texts(chunks, embedding_model)
 
                 # Step 5: Accept User Query
                 st.write("### Ask questions about the document")
@@ -60,7 +58,7 @@ if uploaded_file:
 
                     # Step 8: Generate Response Using Hugging Face LLM
                     st.write("Generating response...")
-                    qa_pipeline = pipeline("text2text-generation", model="allenai/led-large-16384-arxiv", tokenizer="allenai/led-large-16384-arxiv")  # Replace with your Hugging Face model
+                    qa_pipeline = pipeline("text2text-generation", model="allenai/led-large-16384-arxiv")
                     response = qa_pipeline(llm_input, max_length=512, truncation=True)
                     st.write("**Answer:**", response[0]['generated_text'])
             except ValueError as e:
