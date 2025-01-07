@@ -29,7 +29,7 @@ source venv/bin/activate  # On Windows: venv\\Scripts\\activate
 ```
 pip install -r requirements.txt
 ```
-### 3. Usage Instructions
+#### 3. Usage Instructions
 1. Run the Application
 From the project/ directory, run the following command to start the Streamlit app:
 
