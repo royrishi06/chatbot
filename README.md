@@ -71,7 +71,7 @@ Ask questions about the document, and the system retrieves relevant context and 
 Uses allenai/led-large-16384-arxiv to handle long documents like research papers.
 
 ### Bonus:
-The Chatbot has been deployed on the platform Streamlit Cloud. The screenshots of the deployed Chatbot has been used in this Github repository with the complete deployed window being shown below.
+This Chatbot has been deployed and tested on the platform Streamlit Cloud. The screenshots of the deployed Chatbot has been used in this Github repository with the complete deployed window being shown below.
 
 ![Bonus:](Screenshot%20from%202025-01-08%2002-46-19.png)
 
