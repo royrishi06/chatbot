@@ -3,6 +3,9 @@
 # Chatbot Using Hugging Face
 
 An interactive application using Streamlit that allows users to upload a PDF, converts its content into embeddings, and enables question-answering via an LLM.
+
+![Screenshot from 2025-01-08 02-39-27](Screenshot%20from%202025-01-08%2002-39-27.png)
+
 </div>
 
 ### 1. File Directory Structure:
@@ -42,15 +45,18 @@ From the project/ directory, run the following command to start the Streamlit ap
 streamlit run app.py
 ```
 #### 2. Upload a PDF
+![Screenshot from 2025-01-08 02-40-37](Screenshot%20from%202025-01-08%2002-40-37.png)
 Open the app in your browser (the link will be shown in the terminal, typically at http://localhost:8501).
 Use the Upload PDF section in the sidebar to upload your research paper or any other document.
 
 #### 3. Explore the PDF
+![Screenshot from 2025-01-08 02-41-34](Screenshot%20from%202025-01-08%2002-41-34.png)
 After uploading:
 The text extracted from the PDF will be displayed in an expandable section called Extracted Text.
 The text will be split into manageable chunks (e.g., 1,000 characters with overlap).
 
 #### 4. Ask Questions
+![Screenshot from 2025-01-08 02-45-49](Screenshot%20from%202025-01-08%2002-45-49.png)
 Type a question related to the content of the uploaded document in the Ask questions about the document section.
 The system will:
 Retrieve the most relevant chunks from the FAISS vector store.
@@ -67,5 +73,6 @@ Uses allenai/led-large-16384-arxiv to handle long documents like research papers
 
 ### Bonus:
 The Chatbot has been deployed on the platform Streamlit Cloud. The screenshots of the deployed Chatbot has been used in this Github repository with the complete deployed window being
+
 ![Bonus:](Screenshot%20from%202025-01-08%2002-46-19.png)
 
