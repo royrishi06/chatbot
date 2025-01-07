@@ -5,7 +5,7 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
 from transformers import pipeline
 
-st.title("PDF Question Answering with Free Models")
+st.title("PDF Question Answering Chatbot")
 st.sidebar.header("Upload PDF")
 
 # Step 1: PDF Upload
