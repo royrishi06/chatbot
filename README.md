@@ -66,4 +66,6 @@ Hugging Face LLM Integration:
 Uses allenai/led-large-16384-arxiv to handle long documents like research papers.
 
 ### Bonus:
-The Chatbot has been deployed on the platform Streamlit Cloud. The screenshots
+The Chatbot has been deployed on the platform Streamlit Cloud. The screenshots of the deployed Chatbot has been used in this Github repository with the complete deployed window being
+![Bonus:](Screenshot%20from%202025-01-08%2002-46-19.png)
+
