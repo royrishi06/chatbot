@@ -8,7 +8,7 @@ An interactive application using Streamlit that allows users to upload a PDF, co
 ### 1. File Directory Structure:
 ```bash
 
-project/
+chatbot_hf/
 ├── app.py                 # Main Streamlit application
 ├── requirements.txt       # Dependencies
 └── utils/                 # Utility functions
