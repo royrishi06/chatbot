@@ -34,10 +34,9 @@ pip install -r requirements.txt
 From the project/ directory, run the following command to start the Streamlit app:
 
 ```
-Copy code
 streamlit run app.py
 ```
-### Usage
+## Usage
 #### 1. Run the Application
 From the project/ directory, run the following command to start the Streamlit app:
 
@@ -64,15 +63,15 @@ Pass the context and your question to the Hugging Face model (allenai/led-large-
 Display the generated answer.
 
 ### Key Features
-Efficient Handling of Large PDFs:
+1. Efficient Handling of Large PDFs:
 The PDF is split into manageable chunks for embedding and querying.
-Interactive QA:
+2. Interactive QA:
 Ask questions about the document, and the system retrieves relevant context and answers intelligently.
-Hugging Face LLM Integration:
+4. Hugging Face LLM Integration:
 Uses allenai/led-large-16384-arxiv to handle long documents like research papers.
 
 ### Bonus:
-The Chatbot has been deployed on the platform Streamlit Cloud. The screenshots of the deployed Chatbot has been used in this Github repository with the complete deployed window being
+The Chatbot has been deployed on the platform Streamlit Cloud. The screenshots of the deployed Chatbot has been used in this Github repository with the complete deployed window being shown below.
 
 ![Bonus:](Screenshot%20from%202025-01-08%2002-46-19.png)
 
